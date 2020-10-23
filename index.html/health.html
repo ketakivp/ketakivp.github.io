@@ -1,0 +1,90 @@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	   <title>technology</title>
+
+<h2 style="background-color:white;"><font style="color:black, "font-size:30px";"> Choose your favourite..</font></h2>
+        <script type="text/javascript">
+            var picPaths = ['health1.PNG','health2.PNG','health3.PNG'];
+            var curPic = -1;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,2000);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+ 		
+        </script>
+
+
+
+        <style>
+* {box-sizing: border-box;}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+ .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+</style>
+
+	</head>
+	<body background="ky.PNG">
+
+
+	<div class="topnav">
+	 <input type="text" placeholder="Search..">
+         
+         </div>
+            <h4>connect with your blog ....flaurish your field </h4>
+       
+        <font style="color:black;">
+	  <p> <a href="https://commonslibrary.org/sustaining-ourselves-as-activists/" ><h4>Sustain ourselves as activist</h4></a> <h1>H</h1> </p><br>
+	  <p> <a href="https://commonslibrary.org/balance-or-burnout/"> <h4>Education mastermind</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp E</h1></p><br>
+
+	   <p><a href="https://commonslibrary.org/organise-yourself-healthy/" ><h4>Oraganize yourself healthy</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp A</h1></p><br>
+
+	   <p><a href="https://commonslibrary.org/ideas-for-embodied-activism/" ><h4>Ideas for embodied activism</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+L</h1></p><br>
+
+	   <p><a href="https://commonslibrary.org/a-resource-for-activists-working-through-trauma/" ><h4>Working through trauma</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp T</h1></p><br>  
+
+	   <p><a href="https://commonslibrary.org/resources-to-cope-with-climate-anxiety-and-grief/" ><h4>Resources to cope with climate anxiety</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp H</h1></p><br>
+
+	   <p><a href="https://commonslibrary.org/surviving-the-ups-and-downs-of-social-movements/" ><h4>Surviving ups and down</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </h1></p><br>
+
+           <p><a href="https://commonslibrary.org/"><h4>click me for more blogs</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </h1></p>  <!-- <center>   <div>
+    <img src="dice.gif" class="stretch" alt="dice" width="300" height="500"  />
+</div></center> -->
+
+<hr>
+<iframe width="460" height="315" src="https://www.youtube.com/embed/r-swFrfBh3s" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> &nbsp <iframe width="460" height="315" src="https://www.youtube.com/embed/WViSvPFUVd8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> &nbsp <iframe width="460" height="315" src="https://www.youtube.com/embed/2I943-gP904" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr>
+
+
+<div>
+            <img id="imgBanner" src="image1.PNG" alt="something" width="1500" height="500" />
+
+</div>
+
+  </font>
+	</body>
+</html>

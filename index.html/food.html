@@ -1,0 +1,89 @@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	   <title>technology</title>
+
+<h2 style="background-color:white;"><font style="color:black, "font-size:30px";"> Choose your favourite..</font></h2>
+        <script type="text/javascript">
+            var picPaths = ['food1.PNG','food2.PNG','food3.PNG'];
+            var curPic = -1;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,2000);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+ 		
+        </script>
+
+
+
+        <style>
+* {box-sizing: border-box;}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+ .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+</style>
+
+	</head>
+	<body background="ky.PNG">
+
+
+	<div class="topnav">
+	 <input type="text" placeholder="Search..">
+         
+         </div>
+            <h4>connect with your blog ....flaurish your field </h4>
+       
+        <font style="color:black;">
+	  <p> <a href="https://mediakix.com/blog/top-food-bloggers-on-social-media/" ><h4>Foodies </h4></a> <h1>F</h1> </p><br>
+	  <p> <a href="https://makeawebsitehub.com/best-food-blogs/"> <h4>Tongue twister</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp O</h1></p><br>
+
+	   <p><a href="https://pinchofyum.com/" ><h4>Pinch of yummmm</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp O</h1></p><br>
+
+	   <p><a href="https://iamafoodblog.com/" ><h4>Recipe</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp D</h1></p><br>
+
+	   <p><a href="https://publc.com/Recipes?gclid=Cj0KCQjw28T8BRDbARIsAEOMBcxZh5xX18I_1eWyjrrpQ6JAgoajA8MgMwFTUmlytFNfXt0zemv5ODYaAvchEALw_wcB" ><h4>Ready to eat</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Blog</h1></p><br>  
+
+	   <p><a href="https://www.davidlebovitz.com/food-blogging-food-blog/" ><h4>Food directive</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp for</h1></p><br>
+
+	  
+           <p><a href="https://www.zapmeta.co.in/ws?q=food%20sites&asid=zm_in_gc1_08&abt=1&mt=b&nw=g&de=c&ap=&kid=kwd-112330181&aid=24851444299&gclid=Cj0KCQjw28T8BRDbARIsAEOMBcyyOKsZ7vJ_CdjKqt-rt1mFZz8xX6Rqt1ptIQg4nQAz1idEpfEDyfAaAvMqEALw_wcB"><h4>click me for more blogs</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Foodies</h1></p>  <!-- <center>   <div>
+    <img src="dice.gif" class="stretch" alt="dice" width="300" height="500"  />
+</div></center> -->
+
+<hr>
+
+<iframe width="460" height="315" src="https://www.youtube.com/embed/XBgW8hc9-6E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> &nbsp <iframe width="460" height="315" src="https://www.youtube.com/embed/JrDdDRWPDdg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> &nbsp <iframe width="460" height="315" src="https://www.youtube.com/embed/YuDhbLQtt2k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<hr>
+
+
+<div>
+            <img id="imgBanner" src="image1.PNG" alt="something" width="1500" height="500" />
+
+</div>
+
+  </font>
+	</body>
+</html>

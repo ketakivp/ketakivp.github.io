@@ -1,0 +1,89 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	   <title>technology</title>
+
+<h2 style="background-color:white;"><font style="color:black, "font-size:30px";"> Choose your favourite..</font></h2>
+        <script type="text/javascript">
+            var picPaths = ['tech1.PNG','tech2.PNG','tech3.PNG','tech4.PNG','tech5.PNG','tech6.PNG','tech7.PNG'];
+            var curPic = -1;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,2000);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+ 		
+        </script>
+
+
+
+        <style>
+* {box-sizing: border-box;}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+ .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+</style>
+
+	</head>
+	<body background="ky.PNG">
+
+
+	<div class="topnav">
+	 <input type="text" placeholder="Search..">
+         
+         </div>
+            <h4>connect with your technology ....flaurish your field </h4>
+       
+        <font style="color:black;">
+	  <p> <a href="https://en.wikipedia.org/wiki/Blockchain" ><h4>World changing Blockchain technology</h4></a> <h1>T</h1> </p><br>
+	  <p> <a href="https://en.wikipedia.org/wiki/Artificial_intelligence"> <h4>Robots and artificial intelligence</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp E</h1></p><br>
+
+	   <p><a href="https://en.wikipedia.org/wiki/Nuclear_technology" ><h4>Nuclear power</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp C</h1></p><br>
+
+	   <p><a href="https://en.wikipedia.org/wiki/Genetic_engineering" ><h4>Genetic engineering</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp H</h1></p><br>
+
+	   <p><a href="https://en.wikipedia.org/wiki/Cloud_computing" ><h4>Cloud computing</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp B</h1></p><br>  
+
+	   <p><a href="https://en.wikipedia.org/wiki/Internet_of_things" ><h4>Internet of Things(IoT)</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp L</h1></p><br>
+
+	   <p><a href="https://en.wikipedia.org/wiki/Machine_learning" ><h4>Machine learning</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp O</h1></p><br>
+
+           <p><a href="https://en.wikipedia.org/wiki/"><h4>click me for more blogs</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp G</h1></p>  <!-- <center>   <div>
+    <img src="dice.gif" class="stretch" alt="dice" width="300" height="500"  />
+</div></center> -->
+
+<iframe width="460" height="315" src="https://www.youtube.com/embed/X3paOmcrTjQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> &nbsp <iframe width="460" height="315" src="https://www.youtube.com/embed/kd33UVZhnAA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> &nbsp <iframe width="460" height="315" src="https://www.youtube.com/embed/7zcg4fh5n-0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+
+
+           
+
+<div>
+            <img id="imgBanner" src="image1.PNG" alt="something" width="1500" height="500" />
+
+</div>
+
+
+
+    </font>
+	</body>
+</html>

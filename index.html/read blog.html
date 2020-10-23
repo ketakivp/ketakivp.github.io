@@ -1,0 +1,83 @@
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+        <title>unlock blogging</title>
+		<body bgcolor=black>
+			  <style>
+                        body {
+                              background-image: url('blog.png');
+                             }
+							 </style>
+        <h2 style="background-color:black;"><font style="color:white", "font-size:30px";"> Choose your favourite...</font></h2>
+		
+		
+	 <style>
+.btn {
+  border: 2px solid black;
+  background-color: black;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.success {
+  border-color: #ddd;
+  color: white;
+}
+.success:hover {
+  background-color: #464747;
+  color: white;
+}
+</style>
+<br><br><center>
+<a href="food.html"><button class="btn success">Food</button></a>&nbsp &nbsp
+<a href="sport.html"><button class="btn success">Sports</button></a>&nbsp &nbsp
+<a href="education.html"><button class="btn success">Education</button></a>&nbsp &nbsp
+<a href="politics.html"><button class="btn success">Politics</button></a>&nbsp &nbsp
+<a href="technology.html"><button class="btn success">Technology</button></a>&nbsp &nbsp
+<a href="health.html"><button class="btn success">Health</button></a>&nbsp &nbsp
+<a href="entertainment.html"><button class="btn success">Entertainment</button></a><br></center>
+	<br>
+        <script type="text/javascript">
+            var picPaths = ['image1.PNG','image2.PNG','image3.PNG','image4.PNG','image5.PNG','image6.PNG','image7.PNG'];
+            var curPic = -1;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,2000);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+ 		
+        </script>
+	 	
+		</body>
+
+    </head>
+    <body>
+	<!--  <img src ="image1.PNG" alt="something" width="1500" height="1000">. -->
+        <div>
+		<center>
+            <img id="imgBanner" src="image1.PNG" alt="something" width="900" height="500" />
+			
+        </center>			
+        </div>
+        
+    </body>
+</html>     
+

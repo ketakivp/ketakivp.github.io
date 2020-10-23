@@ -1,0 +1,85 @@
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	   <title>technology</title>
+
+<h2 style="background-color:white;"><font style="color:black, "font-size:30px";"> Choose your favourite..</font></h2>
+        <script type="text/javascript">
+            var picPaths = ['ent1.PNG','ent2.PNG','ent3.PNG'];
+            var curPic = -1;
+            //preload the images for smooth animation
+            var imgO = new Array();
+            for(i=0; i < picPaths.length; i++) {
+                imgO[i] = new Image();
+                imgO[i].src = picPaths[i];
+            }
+
+            function swapImage() {
+                curPic = (++curPic > picPaths.length-1)? 0 : curPic;
+                imgCont.src = imgO[curPic].src;
+                setTimeout(swapImage,2000);
+            }
+
+            window.onload=function() {
+                imgCont = document.getElementById('imgBanner');
+                swapImage();
+            }
+ 		
+        </script>
+
+
+
+        <style>
+* {box-sizing: border-box;}
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+ .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+
+</style>
+
+	</head>
+	<body background="ky.PNG">
+
+
+	<div class="topnav">
+	 <input type="text" placeholder="Search..">
+         
+         </div>
+            <h4>connect with your blog ....flaurish your field </h4>
+       
+        <font style="color:black;">
+	  <p> <a href="https://timesofindia.indiatimes.com/blogs/heartbeats/how-low-can-low-become/" ><h4>How low can low become</h4></a> <h1>B</h1> </p><br>
+	  <p> <a href="https://timesofindia.indiatimes.com/blogs/living-with-arts/a-dance-with-indias-soul/"> <h4>Dance with Indian soul</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp L</h1></p><br>
+
+	   <p><a href="https://timesofindia.indiatimes.com/blogs/despatch/who-remembers-ssr/" ><h4>Who remember</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp O</h1></p><br>
+
+	   <p><a href="https://timesofindia.indiatimes.com/blogs/extraordinaryissue/the-gangs-of-bollywood/" ><h4>Gang of bollywood</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp G</h1></p><br>
+
+	   <p><a href="https://timesofindia.indiatimes.com/blogs/just-like-that/that-bond-has-changed-forever/" ><h4>Bond has changed forever</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp S</h1></p><br>  
+
+	   
+
+           <p><a href="https://timesofindia.indiatimes.com/blogs/entertainment/"><h4>click me for more blogs</h4></a><h1>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp </h1></p>  <!-- <center>   <div>
+    <img src="dice.gif" class="stretch" alt="dice" width="300" height="500"  />
+</div></center> -->
+
+<hr>
+<iframe width="460" height="315" src="https://www.youtube.com/embed/PTIaBLtp4R8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> &nbsp  <iframe width="460" height="315" src="https://www.youtube.com/embed/op4B9sNGi0k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> &nbsp <iframe width="460" height="315" src="https://www.youtube.com/embed/b_-dgO63ORs" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
+<hr>
+<div>
+            <img id="imgBanner" src="image1.PNG" alt="something" width="1500" height="500" />
+
+</div>
+
+  </font>
+	</body>
+</html>
